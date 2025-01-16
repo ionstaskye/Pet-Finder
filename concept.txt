@@ -1,0 +1,4 @@
+Pet Finder
+So my idea for my second capstone project is a pet finder app. Users can log on to view pets of 3 categories(cats, dogs, and small animals).
+They can then fill out applications to adopt said animals which then goes to the admins to accept/deny said requests. 
+Admins will be able to add new pets to the roster. Clicking on individual pets will show the data on pet such as breed. age etc.
