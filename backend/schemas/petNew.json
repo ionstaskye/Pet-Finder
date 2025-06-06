@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://our.company.com/jobNew.schema.json",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 50
+    },
+    "age": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 50
+    },
+    "breed": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 30
+    },
+    "species": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 30
+    },
+    "image": {
+      "type": "string"
+    },
+    "username": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 50
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "title",
+    "companyHandle"
+  ]
+}
